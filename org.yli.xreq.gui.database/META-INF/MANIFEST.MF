@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: XRequirement GUI Database
+Bundle-SymbolicName: org.yli.xreq.gui.database;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.yli.xreq.gui.database.Activator
+Bundle-Vendor: Yongqiang Li
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.yli.xreq.service;bundle-version="1.0.0",
+ org.yli.xreq.common;bundle-version="1.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy

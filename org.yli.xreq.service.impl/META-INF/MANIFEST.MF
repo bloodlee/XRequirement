@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: XRequirement Service Implementation
+Bundle-SymbolicName: org.yli.xreq.service.impl
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.yli.xreq.service.impl.Activator
+Bundle-Vendor: Yongqiang Li
+Require-Bundle: org.eclipse.core.runtime,
+ org.yli.xreq.service;bundle-version="1.0.0",
+ org.yli.xreq.domain;bundle-version="1.0.0",
+ org.yli.xreq.database;bundle-version="1.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy

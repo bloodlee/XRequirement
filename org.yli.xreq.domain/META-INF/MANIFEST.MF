@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: XRequirement Domain
+Bundle-SymbolicName: org.yli.xreq.domain
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: Yongqiang Li
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: org.yli.xreq.domain

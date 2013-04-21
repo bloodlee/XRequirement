@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.preferencePages">
+      <page
+            class="org.yli.xreq.gui.database.preferences.DatabasePreferencePage"
+            id="org.yli.xreq.gui.database.preferences.DatabasePreferencePage"
+            name="Database">
+      </page>
+   </extension>
+   <extension
+         point="org.eclipse.core.runtime.preferences">
+      <initializer
+            class="org.yli.xreq.gui.database.preferences.PreferenceInitializer">
+      </initializer>
+   </extension>
+
+</plugin>

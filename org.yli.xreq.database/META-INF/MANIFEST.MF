@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: XRequirement Database
+Bundle-SymbolicName: org.yli.xreq.database
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-Vendor: Yongqiang
+Export-Package: org.yli.xreq.database
+Require-Bundle: org.yli.xreq.thirdlibs;bundle-version="1.0.0"

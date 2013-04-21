@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: XRequirement Service
+Bundle-SymbolicName: org.yli.xreq.service
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: Yongqiang Li
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: org.yli.xreq.domain;bundle-version="1.0.0"
+Export-Package: org.yli.xreq.service,
+ org.yli.xreq.service.exception
