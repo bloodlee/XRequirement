@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         id="application"
+         point="org.eclipse.core.runtime.applications">
+      <application>
+         <run
+               class="org.yli.xreq.gui.Application">
+         </run>
+      </application>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            name="RCP Perspective"
+            class="org.yli.xreq.gui.Perspective"
+            id="org.yli.xreq.gui.perspective">
+      </perspective>
+   </extension>
+   <extension
+         point="org.eclipse.ui.actionSets">
+      <Actionset
+            id="org.yli.xreq.gui.actionSet"
+            label="XReq Main ActionSet"
+            visible="true">
+         <menu
+               id="file"
+               label="&amp;File">
+            <separator
+                  name="sampleGroup">
+            </separator>
+         </menu>
+         <action
+               class="org.yli.xreq.gui.actions.exitAction"
+               icon="icons/sample.gif"
+               id="org.yli.xreq.gui.actions.SampleAction"
+               label="E&amp;xit"
+               menubarPath="file/sampleGroup"
+               toolbarPath="sampleGroup"
+               tooltip="Exit XRequirement">
+         </action>
+      </Actionset>
+   </extension>
+
+</plugin>
